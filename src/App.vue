@@ -1,14 +1,11 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="w-32 h-32 bg-red-600"></div>
+  <div class="w-32 h-32 bg-blue-600"></div>
+  <div class="w-32 h-32 bg-green-600"></div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  name: 'App'
 }
 </script>
